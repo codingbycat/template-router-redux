@@ -1,6 +1,6 @@
-import path from 'path';
+const path = require('path');
 
-const resolve = (dir: string) => path.resolve(__dirname, dir);
+const resolve = (dir) => path.resolve(__dirname, dir);
 
 const cracoConfig = {
   webpack: {
@@ -15,4 +15,4 @@ const cracoConfig = {
   }
 };
 
-export default cracoConfig;
+module.exports = cracoConfig;
