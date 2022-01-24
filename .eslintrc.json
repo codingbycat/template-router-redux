@@ -1,0 +1,13 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "rules": {
+    "semi": "error",
+    "indent": ["error", 2],
+    "no-useless-return": "error",
+    "jsx-quotes": ["warn", "prefer-double"],
+    "no-var": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["warn"]
+  }
+}
