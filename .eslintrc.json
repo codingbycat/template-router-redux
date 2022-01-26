@@ -8,6 +8,7 @@
     "jsx-quotes": ["warn", "prefer-double"],
     "no-var": "error",
     "no-unused-vars": "off",
+    "react/jsx-key": ["warn"],
     "@typescript-eslint/no-unused-vars": ["warn"]
   }
 }
